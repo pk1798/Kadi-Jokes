@@ -1,0 +1,31 @@
+.Joke{
+    border: 1px solid gray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Joke-meter{
+    flex-basis: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+.Joke-text{
+    flex-basis: 2;
+    text-align: center;
+    justify-content: center;
+}
+
+.Joke-vote{
+    border: 1px solid rebeccapurple;
+    border-radius: 50%;
+    /* text-align: center; */
+    padding: 0.5em;
+}
+
+.Joke-downvote, .Joke-upvote{
+    /* text-align: center;
+    justify-content: center; */
+    cursor: pointer;
+    padding: 0.5em;
+}
